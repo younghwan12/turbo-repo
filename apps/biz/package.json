@@ -1,0 +1,38 @@
+{
+  "name": "biz",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --max-warnings 0"
+  },
+  "dependencies": {
+    "@pims-frontend/apis": "workspace:*",
+    "@pims-frontend/ui": "workspace:*",
+    "@reduxjs/toolkit": "^2.2.7",
+    "immer": "^10.1.1",
+    "next": "14.2.5",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@pims-frontend/config-eslint": "workspace:*",
+    "@pims-frontend/config-tailwind": "workspace:*",
+    "@pims-frontend/config-typescript": "workspace:*",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5"
+  }
+}
